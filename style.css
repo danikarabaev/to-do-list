@@ -13,8 +13,8 @@ body {
 
 .wrapper {
     width: 350px;
-    height: 600px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    height: 650px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     border-radius: 10px;
  
 }
@@ -29,6 +29,7 @@ body {
     color: white;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    margin-bottom: 25px;
 }
 
 .nav {
@@ -52,7 +53,52 @@ body {
 .time {
     font-size: 14px;
 }
-.bottom-side {
-border: 1px solid blue;
 
+.task {
+    height: 80px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.border {
+    width: 2%;
+    height: 100%;
+    background-color: rgb(240, 170, 138);
+}
+
+.icon {
+    width: 14%;
+    font-size: 20px;
+    color: rgb(119, 119, 119);
+    padding-top: 25px;
+    padding-left: 10px;
+}
+.task-name {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.task-name p {
+    color: rgb(119, 119, 119);
+}
+
+.task-time {
+    width: 20%;
+    padding-top: 28px;
+}
+
+
+.add {
+    width: 160px;
+    height: 45px;
+    background-color: #0097e6;
+    border-radius: 25px;
+    border: none;
+    margin-left: 25%;
+    color: rgb(241, 241, 241);
+    font-weight: bolder;
 }
